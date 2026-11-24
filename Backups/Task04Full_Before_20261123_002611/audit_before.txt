@@ -1,0 +1,136 @@
+TASK04_FULL_AUDIT_BEGIN
+WORLD=/Game/Maps/LV_HampiBattleground.LV_HampiBattleground
+ACTOR_COUNT=19
+ACTOR label=Landscape class=Landscape tags= loc=X=-54650.00 Y=-25200.00 Z=100.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=DirectionalLight class=DirectionalLight tags= loc=X=-25155.59 Y=-24370.11 Z=56163.83 rot=P=-45.00 Y=45.00 R=-0.00 hidden=False folder=None
+ACTOR label=Actor2 class=Actor tags= loc=X=-25050.00 Y=-24180.00 Z=-55370.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=SkyLight class=SkyLight tags= loc=X=0.00 Y=0.00 Z=5000.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=SkyAtmosphere class=SkyAtmosphere tags= loc=X=0.00 Y=0.00 Z=0.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=ExponentialHeightFog class=ExponentialHeightFog tags= loc=X=0.00 Y=0.00 Z=100.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=PostProcessVolume class=PostProcessVolume tags= loc=X=0.00 Y=0.00 Z=0.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=PlayerStart class=PlayerStart tags= loc=X=-29450.00 Y=0.00 Z=1100.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=None
+ACTOR label=Hampi_Task04_KamalapurHouse_Small class=StaticMeshActor tags=Task04_Stage1 loc=X=-29450.00 Y=0.00 Z=498.87 rot=P=0.00 Y=0.00 R=0.00 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Houses/SM_KamalapurHouse_Small.SM_KamalapurHouse_Small collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_01 class=StaticMeshActor tags=Task04_Stage1 loc=X=-31500.00 Y=-2300.00 Z=243.40 rot=P=0.95 Y=11.31 R=-3.53 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_01.SM_HampiBoulder_01 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_02 class=StaticMeshActor tags=Task04_Stage1 loc=X=-27600.00 Y=-1900.00 Z=244.96 rot=P=-2.47 Y=-156.96 R=0.69 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_02.SM_HampiBoulder_02 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_03 class=StaticMeshActor tags=Task04_Stage1 loc=X=-32300.00 Y=1500.00 Z=293.01 rot=P=-1.54 Y=52.02 R=-1.58 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_03.SM_HampiBoulder_03 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_04 class=StaticMeshActor tags=Task04_Stage1 loc=X=-26600.00 Y=2100.00 Z=341.84 rot=P=4.22 Y=10.99 R=0.24 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_04.SM_HampiBoulder_04 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_05 class=StaticMeshActor tags=Task04_Stage1 loc=X=-30600.00 Y=3300.00 Z=206.29 rot=P=-0.30 Y=-57.10 R=-2.01 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_05.SM_HampiBoulder_05 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_06 class=StaticMeshActor tags=Task04_Stage1 loc=X=-28200.00 Y=-3400.00 Z=102.00 rot=P=4.47 Y=98.24 R=0.32 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_01.SM_HampiBoulder_01 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_07 class=StaticMeshActor tags=Task04_Stage1 loc=X=-33700.00 Y=-400.00 Z=103.56 rot=P=-1.07 Y=-54.61 R=-1.57 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_02.SM_HampiBoulder_02 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_08 class=StaticMeshActor tags=Task04_Stage1 loc=X=-25400.00 Y=500.00 Z=395.36 rot=P=3.63 Y=72.77 R=2.42 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_03.SM_HampiBoulder_03 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_09 class=StaticMeshActor tags=Task04_Stage1 loc=X=-30000.00 Y=4200.00 Z=284.03 rot=P=-0.76 Y=122.38 R=3.56 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_04.SM_HampiBoulder_04 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+ACTOR label=Hampi_Task04_Boulder_10 class=StaticMeshActor tags=Task04_Stage1 loc=X=-27200.00 Y=3800.00 Z=335.20 rot=P=-2.51 Y=174.51 R=-3.44 hidden=False folder=Hampi/Task04/Stage1
+  SMC comp=StaticMeshComponent0 mesh=/Game/Environment/Rocks/SM_HampiBoulder_05.SM_HampiBoulder_05 collision=ERR:StaticMeshComponent: Failed to find property 'collision_enabled' for attribute 'collision_enabled' on 'StaticMeshComponent' visible=True cast_shadow=True
+--- LANDSCAPE ---
+LANDSCAPE_COUNT=1
+LANDSCAPE Landscape_0 loc=X=-54650.00 Y=-25200.00 Z=100.00 scale=X=100.00 Y=100.00 Z=100.00
+  COMPONENT_INFO=ERR:LandscapeComponent: Failed to find property 'component_x' for attribute 'component_x' on 'LandscapeComponent'
+  BOUNDS=(<Struct 'Vector' (0x000002AE5E407260) {x: -29450.000000, y: 0.000000, z: 425.000000}>, <Struct 'Vector' (0x000002AE5E4075D0) {x: 25200.000000, y: 25200.000000, z: 425.000000}>)
+  LAYER_COUNT=0
+  LCOMP LandscapeComponent_0 absolute=ERR:LandscapeComponent: Failed to find property 'absolute_section_offset_x' for attribute 'absolute_section_offset_x' on 'LandscapeComponent'
+--- MATERIALS ---
+MATERIAL /Game/Environment/Materials/M_HampiSoil_Mobile class=Material blend=<BlendMode.BLEND_OPAQUE: 0> two_sided=False shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1>
+  BASE_COLOR=MaterialExpressionMultiply_2
+  ROUGHNESS=MaterialExpressionScalarParameter_3
+  SPECULAR=MaterialExpressionScalarParameter_5
+  EXPRESSIONS=0 types=
+MATERIAL /Game/Materials/M_HampiLandscape class=Material blend=<BlendMode.BLEND_OPAQUE: 0> two_sided=False shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1>
+  BASE_COLOR=MaterialExpressionLandscapeLayerBlend_0
+  ROUGHNESS=MaterialExpressionLandscapeLayerBlend_4
+  EXPRESSIONS=0 types=
+MATERIAL /Game/Environment/Materials/M_HampiGranite_Mobile class=Material blend=<BlendMode.BLEND_OPAQUE: 0> two_sided=False shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1>
+  BASE_COLOR=MaterialExpressionMultiply_1
+  ROUGHNESS=MaterialExpressionScalarParameter_0
+  SPECULAR=MaterialExpressionScalarParameter_1
+  EXPRESSIONS=0 types=
+MATERIAL /Game/Environment/Materials/M_HampiMudPlaster_Mobile class=Material blend=<BlendMode.BLEND_OPAQUE: 0> two_sided=False shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1>
+  BASE_COLOR=MaterialExpressionMultiply_1
+  ROUGHNESS=MaterialExpressionScalarParameter_0
+  SPECULAR=MaterialExpressionScalarParameter_1
+  EXPRESSIONS=0 types=
+MATERIAL /Game/Environment/Materials/M_HampiClayRoof_Mobile class=Material blend=<BlendMode.BLEND_OPAQUE: 0> two_sided=False shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1>
+  BASE_COLOR=MaterialExpressionMultiply_1
+  ROUGHNESS=MaterialExpressionScalarParameter_0
+  SPECULAR=MaterialExpressionScalarParameter_1
+  EXPRESSIONS=0 types=
+MATERIAL /Game/Environment/Materials/M_HampiWoodDark_Mobile class=Material blend=<BlendMode.BLEND_OPAQUE: 0> two_sided=False shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1>
+  BASE_COLOR=MaterialExpressionMultiply_1
+  ROUGHNESS=MaterialExpressionScalarParameter_0
+  SPECULAR=MaterialExpressionScalarParameter_1
+  EXPRESSIONS=0 types=
+--- TEXTURES ---
+TEXTURE /Game/Environment/Terrain/T_HampiClayRoof_Albedo.T_HampiClayRoof_Albedo size=(256, 256) compression=<TextureCompressionSettings.TC_DEFAULT: 0> srgb=True
+TEXTURE /Game/Environment/Terrain/T_HampiGranite_Albedo.T_HampiGranite_Albedo size=(256, 256) compression=<TextureCompressionSettings.TC_DEFAULT: 0> srgb=True
+TEXTURE /Game/Environment/Terrain/T_HampiMudPlaster_Albedo.T_HampiMudPlaster_Albedo size=(256, 256) compression=<TextureCompressionSettings.TC_DEFAULT: 0> srgb=True
+TEXTURE /Game/Environment/Terrain/T_HampiSoil_Albedo.T_HampiSoil_Albedo size=(256, 256) compression=<TextureCompressionSettings.TC_DEFAULT: 0> srgb=True
+TEXTURE /Game/Environment/Terrain/T_HampiWood_Albedo.T_HampiWood_Albedo size=(128, 128) compression=<TextureCompressionSettings.TC_DEFAULT: 0> srgb=True
+--- STATIC MESHES ---
+MESH /Game/Environment/Houses/SM_KamalapurHouse_Small.SM_KamalapurHouse_Small verts=192 tris=288 slots=0 materials=[] nanite_enabled=False collision_complexity=<CollisionTraceFlag.CTF_USE_DEFAULT: 0> simple_collisions=-1 convex_collisions=-1 lods=-1
+MESH /Game/Environment/Rocks/SM_HampiBoulder_01.SM_HampiBoulder_01 verts=70 tris=120 slots=0 materials=[] nanite_enabled=False collision_complexity=<CollisionTraceFlag.CTF_USE_DEFAULT: 0> simple_collisions=-1 convex_collisions=-1 lods=-1
+MESH /Game/Environment/Rocks/SM_HampiBoulder_02.SM_HampiBoulder_02 verts=70 tris=120 slots=0 materials=[] nanite_enabled=False collision_complexity=<CollisionTraceFlag.CTF_USE_DEFAULT: 0> simple_collisions=-1 convex_collisions=-1 lods=-1
+MESH /Game/Environment/Rocks/SM_HampiBoulder_03.SM_HampiBoulder_03 verts=70 tris=120 slots=0 materials=[] nanite_enabled=False collision_complexity=<CollisionTraceFlag.CTF_USE_DEFAULT: 0> simple_collisions=-1 convex_collisions=-1 lods=-1
+MESH /Game/Environment/Rocks/SM_HampiBoulder_04.SM_HampiBoulder_04 verts=70 tris=120 slots=0 materials=[] nanite_enabled=False collision_complexity=<CollisionTraceFlag.CTF_USE_DEFAULT: 0> simple_collisions=-1 convex_collisions=-1 lods=-1
+MESH /Game/Environment/Rocks/SM_HampiBoulder_05.SM_HampiBoulder_05 verts=70 tris=120 slots=0 materials=[] nanite_enabled=False collision_complexity=<CollisionTraceFlag.CTF_USE_DEFAULT: 0> simple_collisions=-1 convex_collisions=-1 lods=-1
+--- API PROBES FOR PLANNING ---
+CLASS HierarchicalInstancedStaticMeshComponent=True
+  METHODS=add_instance,add_instance_world_space,add_instances,allow_cull_distance_volume,batch_update_instances_transform,batch_update_instances_transforms,body_instance,clear_instances,create_and_set_material_instance_dynamic,create_and_set_material_instance_dynamic_from_material,create_dynamic_material_instance,disallow_mesh_paint_per_instance,get_body_instance_async_physics_tick_handle,get_closest_point_on_collision,get_collision_enabled,get_collision_object_type,get_collision_profile_name,get_collision_response_to_channel,get_cull_distances,get_instance_count,get_instance_transform,get_instances_overlapping_box,get_instances_overlapping_sphere,get_material_from_collision_face_index,ignore_instance_for_texture_streaming,instance_end_cull_distance,instance_lod_distance_scale,instance_start_cull_distance,is_collision_enabled,is_physics_collision_enabled,is_query_collision_enabled,is_valid_instance,never_distance_cull,ray_tracing_group_culling_priority,remove_instance,remove_instances,reverse_culling,set_collision_enabled,set_collision_object_type,set_collision_profile_name,set_collision_response_to_all_channels,set_collision_response_to_channel,set_cull_distance,set_cull_distances,set_notify_rigid_body_collision,set_reverse_culling,update_instance_transform
+CLASS InstancedStaticMeshComponent=True
+  METHODS=add_instance,add_instance_world_space,add_instances,allow_cull_distance_volume,batch_update_instances_transform,batch_update_instances_transforms,body_instance,clear_instances,create_and_set_material_instance_dynamic,create_and_set_material_instance_dynamic_from_material,create_dynamic_material_instance,disallow_mesh_paint_per_instance,get_body_instance_async_physics_tick_handle,get_closest_point_on_collision,get_collision_enabled,get_collision_object_type,get_collision_profile_name,get_collision_response_to_channel,get_cull_distances,get_instance_count,get_instance_transform,get_instances_overlapping_box,get_instances_overlapping_sphere,get_material_from_collision_face_index,ignore_instance_for_texture_streaming,instance_end_cull_distance,instance_lod_distance_scale,instance_start_cull_distance,is_collision_enabled,is_physics_collision_enabled,is_query_collision_enabled,is_valid_instance,never_distance_cull,ray_tracing_group_culling_priority,remove_instance,remove_instances,reverse_culling,set_collision_enabled,set_collision_object_type,set_collision_profile_name,set_collision_response_to_all_channels,set_collision_response_to_channel,set_cull_distance,set_cull_distances,set_notify_rigid_body_collision,set_reverse_culling,update_instance_transform
+CLASS StaticMeshActor=True
+  METHODS=actor_instance_guid,get_actor_enable_collision,net_cull_distance_squared,set_actor_enable_collision,spawn_collision_handling_method
+CLASS EditorStaticMeshLibrary=True
+  METHODS=add_simple_collisions,add_simple_collisions_with_notification,bulk_set_convex_decomposition_collisions,bulk_set_convex_decomposition_collisions_with_notification,enable_section_collision,get_collision_complexity,get_convex_collision_count,get_lod_build_settings,get_lod_count,get_lod_reduction_settings,get_lod_screen_sizes,get_simple_collision_count,import_lod,is_section_collision_enabled,remove_collisions,remove_collisions_with_notification,remove_lods,set_convex_decomposition_collisions,set_convex_decomposition_collisions_with_notification,set_lod_build_settings,set_lod_from_static_mesh,set_lod_reduction_settings,set_lods,set_lods_with_notification
+CLASS StaticMeshEditorSubsystem=False
+--- VEGETATION SEARCH ---
+VEGETATION_ACTORS=0 labels=
+VEGETATION_ASSETS=1
+  VEG_ASSET=/Game/Materials/Grass_LayerInfo.Grass_LayerInfo
+--- LIGHTING / ENVIRONMENT ---
+LIGHT_CLASS DirectionalLight count=1
+  DirectionalLight loc=X=-25155.59 Y=-24370.11 Z=56163.83 rot=P=-45.00 Y=45.00 R=-0.00 hidden=False
+    SUN intensity=10.0 mobility=<ComponentMobility.MOVABLE: 2> atmos_sun=True color=<Struct 'Color' (0x00000473ECBAB698) {b: 255, g: 255, r: 255, a: 255}>
+LIGHT_CLASS SkyLight count=1
+  SkyLight loc=X=0.00 Y=0.00 Z=5000.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False
+    SKY realtime=True intensity=1.5
+LIGHT_CLASS SkyAtmosphere count=1
+  SkyAtmosphere loc=X=0.00 Y=0.00 Z=0.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False
+LIGHT_CLASS ExponentialHeightFog count=1
+  ExponentialHeightFog loc=X=0.00 Y=0.00 Z=100.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False
+    FOG density=0.0020000000949949026 fog_color=ERR:ExponentialHeightFogComponent: Failed to find property 'fog_inscattering_color' for attribute 'fog_inscattering_color' on 'ExponentialHeightFogComponent'
+LIGHT_CLASS PostProcessVolume count=1
+  PostProcessVolume loc=X=0.00 Y=0.00 Z=0.00 rot=P=0.00 Y=0.00 R=0.00 hidden=False
+    PPV unbound=True enabled=True
+--- TERRAIN SAMPLES ---
+SAMPLE MapCenter_Kamalapur x=-29450 y=0 z=496.87
+SAMPLE Kamalapur_N x=-29450 y=4000 z=378.12
+SAMPLE Kamalapur_S x=-29450 y=-5000 z=100.00
+SAMPLE Hampi_Hills_W x=-43000 y=9000 z=100.00
+SAMPLE Hampi_Hills_NW x=-47000 y=16000 z=100.00
+SAMPLE Anjanadri_N x=-22000 y=14000 z=220.31
+SAMPLE Anjanadri_NE x=-18000 y=19000 z=284.37
+SAMPLE Hosapete_SE x=-15000 y=-12000 z=100.00
+SAMPLE Military_E x=-10000 y=12000 z=100.00
+SAMPLE River_W x=-40000 y=-19000 z=100.00
+SAMPLE River_C x=-30000 y=-19000 z=100.00
+SAMPLE River_E x=-20000 y=-19000 z=100.00
+SAMPLE River_S_W x=-40000 y=-22500 z=100.00
+SAMPLE River_S_C x=-30000 y=-22500 z=100.00
+SAMPLE River_S_E x=-20000 y=-22500 z=100.00
+--- CVARS / RENDER FEATURES ---
+CVAR r.Nanite=1
+CVAR r.Lumen=0
+CVAR r.PathTracing=0
+CVAR r.RayTracing=0
+CVAR r.DefaultFeature.AutoExposure=1
+CVAR r.Shadow.Virtual.Enable=1
+CVAR r.MobileContentUsed=0

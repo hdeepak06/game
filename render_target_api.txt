@@ -1,0 +1,21 @@
+landscape_import_heightmap_from_render_target: <method 'landscape_import_heightmap_from_render_target' of 'LandscapeProxy' objects>
+Doc: x.landscape_import_heightmap_from_render_target(render_target, import_height_from_rg_channel=False) -> bool
+Overwrites a landscape heightmap with render target data
+
+Args:
+    render_target (TextureRenderTarget2D): Valid render target with a format of RTF_RGBA16f, RTF_RGBA32f or RTF_RGBA8
+    import_height_from_rg_channel (bool): Only relevant when using format RTF_RGBA16f or RTF_RGBA32f, and will tell us if we should import the height data from the R channel only of the Render target or from R & G. Note that using RTF_RGBA16f with InImportHeightFromRGChannel == false, could have precision loss Only works in the editor
+
+Returns:
+    bool:
+landscape_export_heightmap_to_render_target: <method 'landscape_export_heightmap_to_render_target' of 'LandscapeProxy' objects>
+Doc: x.landscape_export_heightmap_to_render_target(render_target, export_height_into_rg_channel=False, export_landscape_proxies=True) -> bool
+Output a landscape heightmap to a render target
+
+Args:
+    render_target (TextureRenderTarget2D): Valid render target with a format of RTF_RGBA16f, RTF_RGBA32f or RTF_RGBA8
+    export_height_into_rg_channel (bool): Tell us if we should export the height that is internally stored as R & G (for 16 bits) to a single R channel of the render target (the format need to be RTF_RGBA16f or RTF_RGBA32f) Note that using RTF_RGBA16f with InExportHeightIntoRGChannel == false, could have precision loss.
+    export_landscape_proxies (bool): Option to also export components of all proxies of Landscape actor (if LandscapeProxy is the Landscape Actor)
+
+Returns:
+    bool:
